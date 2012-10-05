@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Mar Number:" />
+    <EditText android:id="@id/sms_text" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="07504464678" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Your Message" />
+    <EditText android:id="@id/sms_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.88" />
+    <Button android:id="@id/sendsms_intent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" Send Sms" />
+</LinearLayout>

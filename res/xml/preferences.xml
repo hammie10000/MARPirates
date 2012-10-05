@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory>
+        <Preference
+            android:summary="Changing any Preference, will cause MARPirates to STOP playing and STOP Recording.  You Have been Warned!"
+            android:title="WARNING" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="wifiPref"
+            android:persistent="true"
+            android:summary="Use WiFi Default (No)"
+            android:title="Use Wifi" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            android:defaultValue="Sdcard"
+            android:enabled="true"
+            android:entries="@array/StorageType"
+            android:entryValues="@array/StorageValues"
+            android:key="storgefPref"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="Select where the application will record to: SDcard is default"
+            android:title="storage" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            android:defaultValue="32kbs"
+            android:enabled="true"
+            android:entries="@array/StreamType"
+            android:entryValues="@array/StreamValues"
+            android:key="streamPref"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="Which stream the application uses: 32kbs Stereo should used with mobile internet because it uses less internet resourses. Default (Mono)"
+            android:title="Stream Type" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            android:defaultValue="64kbs"
+            android:enabled="true"
+            android:entries="@array/StreamType"
+            android:entryValues="@array/StreamValues"
+            android:key="recordPref"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="Which stream the application reccords: 64kbs Stereo gives better quality. Default (Stereo)"
+            android:title="Recording Type" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference
+            android:summary="MARPirates: Does: Play the Stream in both mono and Stereo,\n Records the stream in both mono and stereo\nAlows user to send email and sms to MAR\nImpliments webview of www.mar.me.uk\nfor now a webpage view of facebook/marpirates\Silences audio on incomming/outgoing calls,\n TODO Write the facebook bit\n put in save to internal external memory cards!\n And also for modern devices add a menu button!"
+            android:title="About" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference
+            android:summary="For more information goto the station&apos;s website http://www.mar.me.uk ,information about Radio Jackie North can be found at http://http://www.rjn.me.uk"
+            android:title="Information" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroller" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Welcome to My Application" />
+        <View android:background="#ff106510" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="12.0dip" />
+        <TextView android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Done" android:layout_weight="0.71" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

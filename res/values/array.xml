@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="StorageType">
+        <item>Sdcard</item>
+        <item>Internal</item>
+    </string-array>
+    <string-array name="StorageValues">
+        <item>Sdcard</item>
+        <item>Internal</item>
+    </string-array>
+    <string-array name="StreamType">
+        <item>32kbs</item>
+        <item>64kbs</item>
+    </string-array>
+    <string-array name="StreamValues">
+        <item>32kbs</item>
+        <item>64kbs</item>
+    </string-array>
+</resources>

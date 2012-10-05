@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E8D6AD"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:textColor="#790000"
+            android:id="@+id/CurrentStreamType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text="@string/CurrentStreamType" />
+        <TextView
+            android:textColor="#790000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/right"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Current Stream" />
+    </RelativeLayout>
+    
+    
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:textColor="#790000"
+            android:id="@+id/RecordStreamType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text="@string/RecordStreamType" />
+        <TextView
+            android:textColor="#790000"
+            android:id="@id/left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/right"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Recording Stream" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_weight="0.0"
+        android:gravity="center" >
+
+        <Button
+            android:id="@id/buttonStartPlay"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Play"/>
+
+    	<Button
+        android:id="@id/buttonStopPlay"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    </LinearLayout>
+
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@id/SongView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/Current_Song"
+            android:textColor="#790000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/skull" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_weight="0.0"
+        android:gravity="center" >
+    
+    	    <Button
+    	        android:id="@id/buttonStartRecord"
+    	        android:layout_height="wrap_content"
+    	        android:layout_width="134dp"
+    	        android:text="Record" />
+    
+            <Button
+                android:id="@id/buttonStopRecord"
+  				android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="Stop" />
+    
+    </LinearLayout>	
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+        android:id="@id/Recording"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:text="@string/Recording"
+        android:textColor="#790000" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_weight="0.0"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonMenu"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+
+    </LinearLayout>
+    
+    </LinearLayout>
+

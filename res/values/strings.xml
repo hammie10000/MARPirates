@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">MARPirates</string>
+    <string name="CurrentStream">http://173.192.22.204:8024</string>
+    <string name="CurrentStreamType">32kbs</string>
+    <string name="RecordStream">http://shoutcast2.tidyhosts.com:9032</string>
+    <string name="RecordStreamType">64kbs</string>
+    <string name="Mono">http://173.192.22.204:8024</string>
+    <string name="Stereo">http://shoutcast2.tidyhosts.com:9032</string>
+    <string name="Sd_Card">/mnt/sdcard/MARPirates</string>
+    <string name="Recording">Not Recording</string>
+    <string name="Current_Song">Not Playing</string>
+    <string name="_Recording">false</string>
+    <string name="_Playing">false</string>
+    <string name="OnResume">false</string>
+    <string name="webview">MARPirates FbookTab</string>
+    <string name="Debug">Debug</string>
+    <string name="hello"/>
+    <string name="SdCardPresent">Sd Card Is Present</string>
+    <string name="stream_title">Confirm Change Stream Type</string>
+    <string name="stream_message">Are you sure you want to change the Stream type?  This stop recording and Playing</string>
+    <string name="recording_title">Confirm Change Record Type</string>
+    <string name="recording_message">Are you sure you want to change the Stream type?  This stop recording and Playing</string>
+    <string name="sdcard_title">Oh Dear</string>
+    <string name="sdcard_message">Something happened, can not write to the SdCard, stopping recording.  Might be no space left!</string>
+    <string name="default_message">Are you sure you want to restore the default settings?  This stop recording and Playing</string>
+    <string name="default_title">Confirm Restore Default Settings</string>
+    <string name="wifi_title">Confirm Change WiFi Setting</string>
+    <string name="wifi_message">Are you sure you want to change the WiFRi setting?  This stop recording and Playing</string>
+    <string name="settings_title">Confirm Settings</string>
+    <string name="settings_message">Are you sure you want to change the settings?  All of the settings stop recording and Playing.</string>
+    <string name="Connection">Not Connected</string>
+    <string name="Storage">Not Assigned</string>
+    <string name="StoragePath">Not Assigned</string>
+</resources>
